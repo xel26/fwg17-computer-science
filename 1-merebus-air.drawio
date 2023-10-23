@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="xPsUNFc2rSw07D_XkF00" name="Page-1">
+        <mxGraphModel dx="2766" dy="1104" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;div style=&quot;font-size: 24px;&quot;&gt;Algoritma deskriptif&amp;nbsp;&lt;span style=&quot;&quot;&gt;memasak air :&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;1. mulai&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;2. siapkan panci berukuran sedang&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;3. masukan air sebanyak 1500 ml ke dalam panci&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;4. letakan panci di atas kompor&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;5. nyalakan kompor dengan api sedang&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;6. tunggu hingga air mendidih&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;7. setelah mendidih matikan kompor&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;8. angkat panci dari atas kompor&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;9. tuang air rebusan ke dalam wadah&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;10. selesai&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;rounded=1;sketch=1;curveFitting=1;jiggle=2;glass=0;shadow=0;strokeWidth=1;labelBorderColor=none;labelBackgroundColor=none;horizontal=1;textDirection=ltr;" parent="1" vertex="1">
+                    <mxGeometry x="-791" y="273" width="482" height="305" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
