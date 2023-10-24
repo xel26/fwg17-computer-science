@@ -1,240 +1,248 @@
 <mxfile host="65bd71144e">
     <diagram id="5AIU2sZw3UCtWIpm7gQh" name="Palindrom">
-        <mxGraphModel dx="833" dy="552" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="826" dy="309" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;div style=&quot;text-align: center; font-size: 24px;&quot;&gt;&lt;b style=&quot;font-family: Helvetica; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Algoritma Deskriptif Menentukan Kata Palindrom :&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. mulai&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;2. deklarasi variable kata&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;3. deklarasi variable kataReverse&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;4. deklarasi variable x&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;5. masukan kata&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;6. ambil panjang kata/jumlah huruf dalam kata&lt;br&gt;&amp;nbsp; &amp;nbsp; dengan assign variable x = kata.length-1&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;7. cek apakah x &amp;gt;= 0&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;9. jika iya, masukan huruf index ke-x ke dalam variable kataReverse&lt;br&gt;&amp;nbsp; &amp;nbsp; dengan assign kataReverse += kata[x]&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;10. lalu lakukan decrement/pengurangan pada variable x = x-1&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;11. jika tidak, program perulangan berhenti&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;br&gt;12. cek apakah nilai kata sama dengan nilai kataReverse&lt;br&gt;13. jika iya, output (cetak &quot;palindrom&quot;)&lt;br&gt;14. jika tidak, output (cetak &quot;bukan palindrom&quot;)&lt;br&gt;15. selesai&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=20;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
-                    <mxGeometry x="66" y="243" width="652" height="486" as="geometry"/>
+                <mxCell id="2" value="&lt;div style=&quot;text-align: center; font-size: 24px;&quot;&gt;&lt;b style=&quot;font-family: Helvetica; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Algoritma Deskriptif Menentukan Kata Palindrom :&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. mulai&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;2. masukan kata&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 21px;&quot;&gt;3. deklarasi variable x&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Helvetica; font-size: 21px;&quot;&gt;4. deklarasi variable kataReverse&lt;/span&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;5. ambil index huruf assign&amp;nbsp; x = kata.length-1&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;6. cek&amp;nbsp; x &amp;gt;= 0&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;7. jika &quot;true&quot; assign kataReverse += kata[x]&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;8. lalu decrement&amp;nbsp; x = x-1 looping&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;9. jika &quot;false&quot;&amp;nbsp; looping berhenti&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;br&gt;10. cek&amp;nbsp; kata sama dengan kataReverse&lt;br&gt;11. jika &quot;true&quot; output &quot;palindrom&quot;&lt;br&gt;12. jika &quot;false&quot; output &quot;bukan palindrom&quot;&lt;br&gt;13. selesai&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=20;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+                    <mxGeometry x="74.5" y="124" width="591" height="400" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="cara kerja program :&lt;br&gt;- palindrom = kata yang bisa di baca dari depan maupun belakang&lt;br&gt;- index di mulai dari 0 dan .length di mulai dari 1.&lt;br&gt;- jika jumlah huruf adalah 6 maka index terakhir adalah 5&lt;br&gt;- length di gunakan untuk mengambil index dari tiap huruf dalam kata&lt;br&gt;- index akan di looping untuk di urutkan secara reverse" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=20;fontFamily=Helvetica;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
-                    <mxGeometry x="28" y="12" width="631" height="156" as="geometry"/>
-                </mxCell>
-                <mxCell id="4" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;Algoritma Pseudocode Menentukan Kata Palindrom :&lt;br&gt;&lt;/b&gt;&lt;br&gt;Deklarasi :&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;kata, kataReverse : string;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;x : num;&lt;br&gt;&lt;br&gt;Mulai :&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;input (kata)&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ambil panjang kata x = kata.length-1&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;cek x &amp;gt;=0&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Helvetica;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;jika &quot;true&quot; assign kataReverse += kata[x]&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Helvetica;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;decrement x = x-1&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;jika &quot;false&quot; program perulangan berhenti&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;cek kata == kataReverse&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;jika &quot;true&quot;, output (cetak &quot;palindrom&quot;)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;jika &quot;false&quot;, output (cetak &quot;bukan palindrom&quot;)&lt;br&gt;Selesai&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=20;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
-                    <mxGeometry x="181" y="882" width="523" height="473" as="geometry"/>
+                <mxCell id="4" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;Algoritma Pseudocode Menentukan Kata Palindrom :&lt;br&gt;&lt;/b&gt;&lt;br&gt;Deklarasi :&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;kata, kataReverse : string;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;x : num;&lt;br&gt;&lt;br&gt;Mulai :&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;input (kata)&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;index huruf x = kata.length-1&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;cek x &amp;gt;=0&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Helvetica;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&quot;true&quot;&amp;nbsp; kataReverse += kata[x]&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Helvetica;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&amp;nbsp;x = x-1 looping&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&quot;false&quot; looping berhenti&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&amp;nbsp;kata == kataReverse&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&quot;true&quot; output &quot;palindrom&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;false&quot; output &quot;bukan palindrom&quot;&lt;br&gt;Selesai&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=20;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+                    <mxGeometry x="139" y="665" width="523" height="473" as="geometry"/>
                 </mxCell>
                 <mxCell id="jP9Gf66-D8ZCtO5igqZr-33" value="" style="group;strokeColor=default;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="161" y="1545" width="646.5" height="2187" as="geometry"/>
+                    <mxGeometry x="21" y="1227" width="803" height="2187" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="&lt;b&gt;Algoritma Flowchart Menentukan Kata Palindrom :&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Helvetica;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="21.5" width="498" height="36" as="geometry"/>
+                    <mxGeometry x="26.704563031709206" width="498" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="mulai" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="183" y="58" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" value="kata" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="193" y="213" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="18" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="6" target="7" edge="1">
+                <mxCell id="38" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="6" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="kataReverse" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="168" y="353" width="205" height="68" as="geometry"/>
+                <mxCell id="6" value="MULAI" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
+                    <mxGeometry x="248.0000309358082" y="87" width="149.04872389791186" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="7" target="8" edge="1">
+                <mxCell id="39" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="10" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="x" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="168" y="498" width="205" height="68" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="8" target="9" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="input kata" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="176" y="679" width="209" height="77" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="9" target="10" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="10" value="INPUT kata" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
+                    <mxGeometry x="203.6999226604795" y="234" width="259.59319412219645" height="77" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="x = kata.length-1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="180" y="857" width="190" height="79" as="geometry"/>
+                    <mxGeometry x="227.30308584686773" y="694" width="235.9938128383604" height="79" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="10" target="11" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="36" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="351.3964482274862" y="1013" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="12" value="x &amp;gt;= 0 ?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="189" y="1008" width="184" height="137" as="geometry"/>
+                <mxCell id="41" value="Iya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Helvetica;" parent="36" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2183" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="x &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
+                    <mxGeometry x="234.75174013921117" y="813" width="228.54137664346482" height="137" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="11" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="kataReverse += kata[x]" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="183" y="1249" width="237" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" value="Iya" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="12" target="13" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry x="214.2585769528229" y="1093" width="294.37122969837594" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="14" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="537" y="1492"/>
-                            <mxPoint x="528" y="1073"/>
+                            <mxPoint x="671.9613302397524" y="1348"/>
+                            <mxPoint x="655.8143851508122" y="878"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="14" value="x = x -1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="186" y="1441" width="237" height="90" as="geometry"/>
+                    <mxGeometry x="231.02552204176337" y="1303" width="294.37122969837594" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="13" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="kata == KataReverse ?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="140.5" y="1631" width="269" height="171" as="geometry"/>
+                <mxCell id="24" value="kata == KataReverse&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
+                    <mxGeometry x="174.51121423047178" y="1436" width="334.11755607115236" height="171" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="12" target="24" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="46" y="1077"/>
-                            <mxPoint x="56" y="1343"/>
-                            <mxPoint x="46" y="1725"/>
+                            <mxPoint x="57.135344160866204" y="882"/>
+                            <mxPoint x="69.55607115235885" y="1148"/>
+                            <mxPoint x="57.135344160866204" y="1530"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="26" value="output&lt;br&gt;cetak &quot;palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="168" y="1915" width="223.5" height="85" as="geometry"/>
+                <mxCell id="35" value="&lt;font face=&quot;Helvetica&quot;&gt;Tidak&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="25" vertex="1" connectable="0">
+                    <mxGeometry x="-0.7826" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="OUTPUT&lt;br&gt;&amp;nbsp;&quot;palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
+                    <mxGeometry x="208.66821345707658" y="1720" width="277.6032482598608" height="85" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="Iya" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="24" target="26" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="output&lt;br&gt;cetak &quot;bukan palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="396" y="1918" width="241.5" height="87" as="geometry"/>
+                <mxCell id="28" value="OUTPUT&lt;br&gt;&quot;bukan palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
+                    <mxGeometry x="518" y="1717" width="279.14" height="78" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="TIdak" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;entryX=0.399;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="24" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="512" y="1723"/>
+                            <mxPoint x="633" y="1521"/>
                         </Array>
-                        <mxPoint x="547" y="1924" as="targetPoint"/>
+                        <mxPoint x="679.4137664346481" y="1729" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" value="selesai" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="213" y="2090" width="120" height="80" as="geometry"/>
+                <mxCell id="30" value="SELESAI" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
+                    <mxGeometry x="264.5614849187935" y="1895" width="149.04872389791186" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="26" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="28" target="30" edge="1">
+                <mxCell id="33" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;strokeColor=default;exitX=0.428;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="28" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="526" y="2135"/>
+                            <mxPoint x="642" y="1935"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="9" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="x" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
+                    <mxGeometry x="214.26339520494975" y="406" width="254.62490332559938" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="jP9Gf66-D8ZCtO5igqZr-33" source="69" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="kataReverse" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;strokeColor=default;" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
+                    <mxGeometry x="221.71339520494973" y="550" width="254.62490332559938" height="68" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="BDV7IyLmSjpeVGGIrH9h" name="reverse words">
-        <mxGraphModel dx="833" dy="1652" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1836" dy="687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="KFtNnMf4hE5vOKKRivtk-1" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Algoritma Deskriptif Reverse Words :&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;1. mulai&lt;br&gt;2. deklarasi variable words&lt;br&gt;3. deklarasi variable wordsReverse&lt;br&gt;4. deklarasi variable separator&lt;br&gt;5. deklarasi variable x&lt;br&gt;5. input words&lt;br&gt;6. pecah words menjadi array yang di pisahkan spasi&lt;br&gt;&amp;nbsp; &amp;nbsp; dengan assign variable separator = words.split(&quot; &quot;)&lt;br&gt;7. ambil panjang array/jumlah kata dalam words&lt;br&gt;&amp;nbsp; &amp;nbsp; dengan assign variable x = separator.length-1&lt;br&gt;8. cek apakah x &amp;gt;= 0&lt;br&gt;9. jika iya, tambahkan kata index ke-x ke dalam variable wordsReverse&lt;br&gt;&amp;nbsp; &amp;nbsp; dengan assign wordsReverse += separator[x]&lt;br&gt;10. lalu decrement/lakukan pengurangan pada variable x&lt;br&gt;11. jika tidak, program perulangan berhenti&lt;br&gt;12. output cetak wordsReverse&lt;br&gt;13. Selesai&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=24;fontFamily=Helvetica;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;perimeterSpacing=0;strokeWidth=1;" parent="1" vertex="1">
-                    <mxGeometry x="68" y="-912" width="647" height="559" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-37" value="" style="group;strokeColor=default;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="13" y="234" width="822" height="1819" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-1" value="&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Algoritma Pseudocode Reverse Words :&lt;br&gt;&lt;/b&gt;&lt;br&gt;Deklarasi :&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;words, wordsReverse, separator : string;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;x : num;&lt;br&gt;&lt;br&gt;Mulai&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;input words&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;buat array, separator = words.split(&quot; &quot;)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ambil panjang array, x = separator.length-1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;cek x &amp;gt;= 0&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;jika &quot;true&quot;, wordsReverse += separator[x]&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;decrement x = x-1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;jika &quot;false&quot;, looping stop&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;output cetak wordsReverse&lt;br&gt;Selesai&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=20;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
-                    <mxGeometry x="141" y="-285" width="527" height="473" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-1" value="&lt;font face=&quot;Helvetica&quot;&gt;MULAI&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="494.69575952598535" y="70.91016949152542" width="139.97611872675085" height="62.43177966101695" as="geometry"/>
                 </mxCell>
-                <mxCell id="ulO0fnhEckeZprj6zVpY-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;cara kerja program :&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 20px; background-color: initial;&quot;&gt;- index di mulai dari 0 dan .length di mulai dari 1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;- jika jumlah huruf adalah 6 maka index terakhir adalah 5&lt;/span&gt;&lt;span style=&quot;font-size: 20px; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 20px; text-align: left;&quot;&gt;- length di gunakan untuk mengambil index dari tiap kata dalam kalimat&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 20px; text-align: left;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 20px; background-color: initial;&quot;&gt;- index akan di looping untuk di urutkan secara reverse&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=24;fontFamily=Helvetica;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
-                    <mxGeometry x="13" y="-1100" width="648" height="156" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-2" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 24px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Algoritma Flowchart Reverse Words :&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="211.00218051855" y="14.001440677966102" width="476.56887138364374" height="32.372033898305084" as="geometry"/>
                 </mxCell>
-                <mxCell id="ulO0fnhEckeZprj6zVpY-2" value="" style="group;strokeColor=default;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="178" y="327" width="517" height="1815" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-4" value="INPUT kalimat" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="491.2434768506005" y="178.04618644067796" width="167.47898349444165" height="48.55805084745763" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Algoritma Flowchart Reverse Words :&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Helvetica;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="26" y="9" width="446" height="41" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-3" value="mulai" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="140.04276985743383" y="60" width="126.35437881873727" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-4" value="words" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="140.04276985743383" y="206" width="135.8309572301426" height="58" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-9" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-3" target="3x0qsaGhGGFYojzwKzcm-4" edge="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-7" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-1" target="2Pl_2EvavBKf5KSTd6St-4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-5" value="wordsReverse" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="118.98370672097758" y="314" width="193.74338085539716" height="70" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-5" value="kata, kalimatReverse, x" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="436.58049272116466" y="274.3915254237288" width="280.4833370660694" height="64.74406779661017" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-11" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-4" target="3x0qsaGhGGFYojzwKzcm-5" edge="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-8" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-4" target="2Pl_2EvavBKf5KSTd6St-5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-7" value="separator" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="126.35437881873727" y="443" width="193.74338085539716" height="70" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-9" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;entryX=0.433;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-5" target="2Pl_2EvavBKf5KSTd6St-12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="579.7886975091042" y="386.1521186440678" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-12" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-5" target="3x0qsaGhGGFYojzwKzcm-7" edge="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-12" value="x = kalimat.length-1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="486.73965058157745" y="402.3381355932204" width="215.40705272596998" height="69.36864406779661" as="geometry"/>
+                </mxCell>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-14" value="x &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="498.2793141204687" y="555.7199152542373" width="200.7709128041429" height="122.55127118644069" as="geometry"/>
+                </mxCell>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-15" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-12" target="2Pl_2EvavBKf5KSTd6St-14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-8" value="x" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="126.35437881873727" y="572" width="193.74338085539716" height="70" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-16" value="kata = kalimat[x] + kata" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="480.9833146696528" y="959.5995762711865" width="237.37666293393056" height="63.97330508474576" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-13" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-7" target="3x0qsaGhGGFYojzwKzcm-8" edge="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-20" value="Iya" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-18" target="2Pl_2EvavBKf5KSTd6St-16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-14" value="input words" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="146.88696537678206" y="720" width="152.67820773930754" height="66" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-18" value="kalimat[x] != &quot; &quot;" style="rhombus;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="498.2793141204687" y="739.9322033898305" width="206.92540002488494" height="132.571186440678" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-15" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-8" target="3x0qsaGhGGFYojzwKzcm-14" edge="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-19" value="Iya" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-14" target="2Pl_2EvavBKf5KSTd6St-18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-16" value="separator = words.split(&quot; &quot;)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="70.54786150712832" y="851" width="315.88594704684317" height="62" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-17" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-14" target="3x0qsaGhGGFYojzwKzcm-16" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-18" value="x = separator.length-1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="81.07739307535641" y="961" width="315.88594704684317" height="62" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-33" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-16" target="3x0qsaGhGGFYojzwKzcm-18" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-19" value="x &amp;gt;= 0 ?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="157.94297352342159" y="1090" width="136.88391038696537" height="128" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-20" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-18" target="3x0qsaGhGGFYojzwKzcm-19" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-21" value="&lt;span style=&quot;text-align: left;&quot;&gt;wordsReverse += separator[x]&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="76.86558044806517" y="1293" width="315.88594704684317" height="62" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-22" value="Iya" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-19" target="3x0qsaGhGGFYojzwKzcm-21" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-26" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-23" target="3x0qsaGhGGFYojzwKzcm-19" edge="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-23" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-21" target="2Pl_2EvavBKf5KSTd6St-14" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="494" y="1444"/>
-                            <mxPoint x="476" y="1149"/>
+                            <mxPoint x="751.8091269148132" y="1121.459745762712"/>
+                            <mxPoint x="747.0055349153705" y="618.9224576271187"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-23" value="&lt;span style=&quot;text-align: left;&quot;&gt;x = x-1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="83.18329938900203" y="1407" width="315.88594704684317" height="62" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-21" value="x = x-1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="514.4169074703944" y="1089.8584745762712" width="183.09229620696587" height="63.97330508474576" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-24" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-21" target="3x0qsaGhGGFYojzwKzcm-23" edge="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-22" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-16" target="2Pl_2EvavBKf5KSTd6St-21" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-27" value="output&lt;br&gt;cetak wordsReverse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="134.77800407331975" y="1568" width="250.6028513238289" height="68" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-24" value="kaliamatReverse += kata + &quot;&amp;nbsp; &quot;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="83.81306534862469" y="779.2411016949153" width="293.29978161348595" height="62.43177966101695" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-28" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-19" target="3x0qsaGhGGFYojzwKzcm-27" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="19" y="1158"/>
-                            <mxPoint x="24" y="1366"/>
-                            <mxPoint x="24" y="1592"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-25" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-18" target="2Pl_2EvavBKf5KSTd6St-24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-30" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Helvetica;labelBorderColor=none;" parent="3x0qsaGhGGFYojzwKzcm-28" vertex="1" connectable="0">
-                    <mxGeometry x="-0.7319" y="-4" relative="1" as="geometry">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-26" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Helvetica;" parent="2Pl_2EvavBKf5KSTd6St-25" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2344" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-31" value="selesai" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" vertex="1">
-                    <mxGeometry x="201.001099796334" y="1724" width="126.35437881873727" height="80" as="geometry"/>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-29" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-27" target="2Pl_2EvavBKf5KSTd6St-21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="229.98213684124718" y="1121.459745762712"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="3x0qsaGhGGFYojzwKzcm-32" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;labelBorderColor=none;" parent="ulO0fnhEckeZprj6zVpY-2" source="3x0qsaGhGGFYojzwKzcm-27" target="3x0qsaGhGGFYojzwKzcm-31" edge="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-27" value="kata = &quot; &quot;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="138.91652844403916" y="950.3504237288137" width="183.09229620696587" height="63.97330508474576" as="geometry"/>
+                </mxCell>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-28" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-24" target="2Pl_2EvavBKf5KSTd6St-27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-30" value="kaliamatReverse += kata&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="491.513751399776" y="1240.1572033898306" width="249.04851063829787" height="69.36864406779661" as="geometry"/>
+                </mxCell>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-31" value="OUTPUT&lt;br&gt;kalimatReverse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="496.12" y="1386.6021186440678" width="247.34" height="58.57796610169491" as="geometry"/>
+                </mxCell>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-35" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-14" target="2Pl_2EvavBKf5KSTd6St-30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="54.00226787315562" y="618.9224576271187"/>
+                            <mxPoint x="69.38848592501063" y="998.9084745762711"/>
+                            <mxPoint x="69.38848592501063" y="1277.9245762711867"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-36" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Helvetica;" parent="2Pl_2EvavBKf5KSTd6St-35" vertex="1" connectable="0">
+                    <mxGeometry x="-0.8541" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-32" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-30" target="2Pl_2EvavBKf5KSTd6St-31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-33" value="SELESAI" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                    <mxGeometry x="542.46" y="1506.0703389830508" width="139.85" height="60.11949152542373" as="geometry"/>
+                </mxCell>
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-34" value="" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-31" target="2Pl_2EvavBKf5KSTd6St-33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
