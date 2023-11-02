@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="_7_e97yulDteMWOK7Sq_" name="Page-1">
-        <mxGraphModel dx="1515" dy="2095" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2083" dy="2468" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Algoritma Deskriptif Menghitung Luas Permukaan Dadu :&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;1. MULAI&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;2. INPUT sisi&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;3. cek sisi adalah NUMBER&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;4. jika FALSE OUTPUT &quot;masukan angka&quot; kembali input sisi&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;5. INISIALISASI variable luasPermukaan = 6 * sisi * sisi&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;6. OUTPUT luasPermukaan&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;7. SELESAI&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=20;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="154" y="-1031" width="579" height="231" as="geometry"/>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Algoritma Deskriptif Menghitung Luas Permukaan Dadu :&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;1. MULAI&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;2. INPUT sisi&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;3. cek sisi adalah NUMBER&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;4. jika FALSE OUTPUT &quot;masukan angka&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;5. jika TRUE INISIALISASI luasPermukaan = 6 * sisi * sisi&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;6. OUTPUT luasPermukaan&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;7. SELESAI&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=20;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="163" y="-1031" width="561" height="231" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Algoritma Pseducode Menghitung Luas Permukaan Dadu :&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;Deklarasi :&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;sisi, luasPermukaa : num;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;Mulai&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;input (sisi)&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;cek sisi == num&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;jika &quot;false&quot; output &quot;masukang angka&quot; input (sisi)&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;jika &quot;true&quot; luasPermukaan = 6 * sisi * sisi&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;output luasPermukaan&lt;br style=&quot;font-size: 20px;&quot;&gt;Selesai" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=20;fontFamily=Helvetica;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
+                <mxCell id="3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Algoritma Pseducode Menghitung Luas Permukaan Dadu :&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;DEKLARASI :&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;sisi, luasPermukaa : NUM;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;MULAI&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;INPUT (sisi)&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;IF sisi == NUMBER&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;FALSE OUTPUT &quot;masukan angka&quot;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;TRUE luasPermukaan = 6 * sisi * sisi&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 20px;&quot;&gt;&#9;&lt;/span&gt;OUTPUT (luasPermukaan)&lt;br style=&quot;font-size: 20px;&quot;&gt;SELESAI" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=20;fontFamily=Helvetica;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="112" y="-670" width="576" height="300" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="" style="group;strokeColor=default;fontSize=20;fontStyle=1" parent="1" vertex="1" connectable="0">
@@ -28,8 +28,13 @@
                 <mxCell id="8" value="INPUT&lt;br&gt;sisi" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Helvetica;fontSize=20;fontStyle=1" parent="61" vertex="1">
                     <mxGeometry x="374.09831460674155" y="232" width="172.8441011235955" height="71" as="geometry"/>
                 </mxCell>
-                <mxCell id="137" style="edgeStyle=none;sketch=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;fontStyle=1" edge="1" parent="61" source="9" target="11">
+                <mxCell id="137" style="edgeStyle=none;sketch=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;fontStyle=1" parent="61" source="9" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;IYA&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="137">
+                    <mxGeometry x="-0.0809" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="9" value="sisi == NUMBER" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=20;fontStyle=1" parent="61" vertex="1">
                     <mxGeometry x="365.6479213483146" y="367" width="206.77668539325842" height="139" as="geometry"/>
@@ -68,105 +73,105 @@
                         <mxPoint x="301.78885473001515" y="-549.2353757963683" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="108" value="" style="group;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" connectable="0" parent="1">
+                <mxCell id="108" value="" style="group;strokeColor=default;fontStyle=1;fontSize=16;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="863" y="-1051" width="825" height="1614" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;MULAI&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;labelBorderColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="109" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;MULAI&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;labelBorderColor=none;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="399.9977986965967" y="20" width="143.3743664011586" height="87.83673469387756" as="geometry"/>
                 </mxCell>
-                <mxCell id="110" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;INPUT&lt;br style=&quot;font-size: 16px;&quot;&gt;radius&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="110" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;INPUT&lt;br style=&quot;font-size: 16px;&quot;&gt;radius&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="359.03330919623465" y="162.49795918367346" width="232.98334540188273" height="82.34693877551021" as="geometry"/>
                 </mxCell>
-                <mxCell id="111" value="" style="edgeStyle=none;html=1;fontSize=16;labelBorderColor=none;strokeColor=default;fontStyle=1" edge="1" parent="108" source="109" target="110">
+                <mxCell id="111" value="" style="edgeStyle=none;html=1;fontSize=16;labelBorderColor=none;strokeColor=default;fontStyle=1" parent="108" source="109" target="110" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="112" value="radius == NUMBER" style="rhombus;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="112" value="radius == NUMBER" style="rhombus;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="390.69514844315717" y="324.9959183673469" width="178.0231716147719" height="132.3040816326531" as="geometry"/>
                 </mxCell>
-                <mxCell id="113" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" edge="1" parent="108" source="110" target="112">
+                <mxCell id="113" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" parent="108" source="110" target="112" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="114" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" edge="1" parent="108" source="115" target="110">
+                <mxCell id="114" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" parent="108" source="115" target="110" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="115.89427950760319" y="204.22040816326535"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="115" value="OUTPUT&lt;br style=&quot;font-size: 16px;&quot;&gt;&quot;masukan angka&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="115" value="OUTPUT&lt;br style=&quot;font-size: 16px;&quot;&gt;&quot;masukan angka&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry y="346.95510204081637" width="232.38595220854455" height="74.9357142857143" as="geometry"/>
                 </mxCell>
-                <mxCell id="116" value="TIDAK" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" edge="1" parent="108" source="112" target="115">
+                <mxCell id="116" value="TIDAK" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" parent="108" source="112" target="115" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" value="radius % 7 === 0" style="rhombus;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="117" value="radius % 7 === 0" style="rhombus;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="390.69514844315717" y="666.4612244897959" width="178.0231716147719" height="132.3040816326531" as="geometry"/>
                 </mxCell>
-                <mxCell id="118" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" edge="1" parent="108" source="119" target="117">
+                <mxCell id="118" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" parent="108" source="119" target="117" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="119" value="DEKLARASI&lt;br&gt;phi" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="119" value="DEKLARASI&lt;br&gt;phi" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="408.01955104996375" y="546.7836734693877" width="143.3743664011586" height="65.87755102040816" as="geometry"/>
                 </mxCell>
-                <mxCell id="120" value="IYA" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" edge="1" parent="108" source="112" target="119">
+                <mxCell id="120" value="IYA" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" parent="108" source="112" target="119" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" value="ASSIGNMENT&lt;br style=&quot;font-size: 16px;&quot;&gt;phi = 3.14" style="whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="121" value="ASSIGNMENT&lt;br style=&quot;font-size: 16px;&quot;&gt;phi = 3.14" style="whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="89.01158580738596" y="699.6744897959184" width="143.3743664011586" height="65.87755102040816" as="geometry"/>
                 </mxCell>
-                <mxCell id="122" value="TIDAK" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" edge="1" parent="108" source="117" target="121">
+                <mxCell id="122" value="TIDAK" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" parent="108" source="117" target="121" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="123" value="ASSIGNMENT&lt;br style=&quot;font-size: 16px;&quot;&gt;phi = 22/7" style="whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="123" value="ASSIGNMENT&lt;br style=&quot;font-size: 16px;&quot;&gt;phi = 22/7" style="whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="681.6256335988415" y="699.6744897959184" width="143.3743664011586" height="65.87755102040816" as="geometry"/>
                 </mxCell>
-                <mxCell id="124" value="IYA" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" edge="1" parent="108" source="117" target="123">
+                <mxCell id="124" value="IYA" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" parent="108" source="117" target="123" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="125" value="INISIALISASI&lt;br style=&quot;font-size: 16px;&quot;&gt;luas = phi * radius ** 2" style="whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="125" value="INISIALISASI&lt;br style=&quot;font-size: 16px;&quot;&gt;luas = phi * radius ** 2" style="whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="390.69514844315717" y="902.5224489795919" width="188.77624909485883" height="66.97551020408164" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBorderColor=none;strokeColor=default;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="108" source="121" target="125">
+                <mxCell id="126" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBorderColor=none;strokeColor=default;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" parent="108" source="121" target="125" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="161.29616220130342" y="936.5591836734695"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="127" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="108" source="123" target="125">
+                <mxCell id="127" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" parent="108" source="123" target="125" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="757.4945691527878" y="933.265306122449"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="128" value="INISIALISASI&lt;br style=&quot;font-size: 16px;&quot;&gt;keliling = 2 * phi * radius" style="whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="128" value="INISIALISASI&lt;br style=&quot;font-size: 16px;&quot;&gt;keliling = 2 * phi * radius" style="whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="390.69514844315717" y="1057.3346938775512" width="188.77624909485883" height="66.97551020408164" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" edge="1" parent="108" source="125" target="128">
+                <mxCell id="129" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" parent="108" source="125" target="128" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="130" value="OUTPUT&lt;br style=&quot;font-size: 16px;&quot;&gt;luas" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="130" value="OUTPUT&lt;br style=&quot;font-size: 16px;&quot;&gt;luas" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="383.5264301230992" y="1204.461224489796" width="203.11368573497467" height="73.01428571428572" as="geometry"/>
                 </mxCell>
-                <mxCell id="131" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" edge="1" parent="108" source="128" target="130">
+                <mxCell id="131" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" parent="108" source="128" target="130" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="132" value="OUTPUT&lt;br style=&quot;font-size: 16px;&quot;&gt;keliling" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="132" value="OUTPUT&lt;br style=&quot;font-size: 16px;&quot;&gt;keliling" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBorderColor=none;strokeColor=default;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="383.5264301230992" y="1365.3122448979593" width="203.11368573497467" height="73.01428571428572" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" edge="1" parent="108" source="130" target="132">
+                <mxCell id="133" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;fontStyle=1" parent="108" source="130" target="132" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="134" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;SELESAI&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;labelBorderColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="108">
+                <mxCell id="134" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;SELESAI&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;labelBorderColor=none;fontStyle=1;fontSize=16;" parent="108" vertex="1">
                     <mxGeometry x="413.39608979000724" y="1526.1632653061224" width="143.3743664011586" height="87.83673469387756" as="geometry"/>
                 </mxCell>
-                <mxCell id="135" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="108" source="132" target="134">
+                <mxCell id="135" value="" style="edgeStyle=none;html=1;labelBorderColor=none;strokeColor=default;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" parent="108" source="132" target="134" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="507.2853806133156" y="1518.8796216207859" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="136" value="Algoritma Flowchart Luas dan Keliling Lingkara :" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="108">
+                <mxCell id="136" value="Algoritma Flowchart Luas dan Keliling Lingkara :" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" parent="108" vertex="1">
                     <mxGeometry x="17.02" y="16" width="391" height="31" as="geometry"/>
                 </mxCell>
             </root>

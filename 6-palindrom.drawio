@@ -1,127 +1,203 @@
 <mxfile host="65bd71144e">
     <diagram id="5AIU2sZw3UCtWIpm7gQh" name="Palindrom">
-        <mxGraphModel dx="833" dy="419" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="5088" dy="-12" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;div style=&quot;text-align: center; font-size: 24px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; background-color: initial; font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Algoritma Deskriptif Menentukan Kata Palindrom :&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 24px;&quot;&gt;1. &lt;font style=&quot;font-size: 24px;&quot;&gt;MULAI&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;2. INPUT kata&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 24px;&quot;&gt;3. INISIALISASI variable kataReverse dengan STRING kosong&lt;br style=&quot;border-color: var(--border-color); font-size: 24px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Helvetica; font-size: 24px;&quot;&gt;4.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 24px;&quot;&gt;INISIALISASI variable x dengan panjang kata dikurangi 1&lt;/span&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;5. saat&amp;nbsp;x lebih atau sama dengan 0&lt;br style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp; &amp;nbsp; a&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;.&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 24px;&quot;&gt;ASSIGNMENT kataReverse dengan huruf index ke-x secara KONKATENASI&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp; &amp;nbsp; b&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;. ASSIGNMENT x dikurangi 1&lt;br style=&quot;font-size: 24px;&quot;&gt;6. &lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 24px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;cek kata sama dengan kataReverse&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 24px;&quot;&gt;7. jika TRUE OUTPUT &quot;Palindrom&quot;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;8. jika FALSE OUTPUT &quot;Bukan Palindrom&quot;&lt;br style=&quot;font-size: 24px;&quot;&gt;9. SELESAI&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=24;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="451.5" y="130" width="926" height="366" as="geometry"/>
+                <mxCell id="2" value="&lt;div style=&quot;text-align: center; font-size: 24px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; background-color: initial; font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Algoritma Deskriptif Menentukan Kata Palindrom :&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 24px;&quot;&gt;1. &lt;font style=&quot;font-size: 24px;&quot;&gt;MULAI&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;2 . INPUT kata&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;3. membuat OBJECT upper, OBJECT lower, dan INISIALISASI kataLowerCase dengan STRING kosong&lt;br&gt;4. INISIALISASI i dengan angka 0&lt;br&gt;5. saat i kurang dari panjang kata&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;A. saat kata index ke-i berada di urutan antara &quot;A&quot; sampai &quot;Z&quot;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;a. REASSIGNMENT kataLowerCase dengan lower[upper[kata[i]] + 32]&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;b. REASSIGNMENT i dengan i + 1&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;B. REASSIGNMENT kataLowerCase dengan kata[i]&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;a. REASSIGNMENT i dengan i + 1&lt;br&gt;6. INISIALISASI kataReverse dengan STRING kosong&lt;br&gt;7. INISIALISASI x dengan panjang kataLowerCase - 1&lt;br&gt;8. saat x lebih dari atau sama dengan 0&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;A. REASSIGNMENT kataReverse dengan kataLowerCase index ke-x&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;B. REASSIGNMENT x dengan x - 1&lt;br&gt;9. cek kataLowerCase sama dengan kataReverse&lt;br&gt;10. jika TRUE OUTPUT &quot;Palindrom&quot;&lt;br&gt;11. jika FALSE OUTPUT &quot;bukan Palindrom&quot;&lt;br&gt;12. SELESAI&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=24;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="422" y="2443" width="1181" height="603" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;Algoritma Pseudocode Menentukan Kata Palindrom :&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;DEKLARASI :&lt;br style=&quot;font-size: 24px;&quot;&gt;&#9;kata, kataReverse : STRING;&lt;br style=&quot;font-size: 24px;&quot;&gt;&#9;x : NUM;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;MULAI :&lt;br style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;INPUT (kata)&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI kataReverse = &quot;&quot;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI x = kata.length - 1&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;WHILE&amp;nbsp;x &amp;gt;=0&lt;br style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Helvetica; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 24px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt; &lt;/span&gt;&amp;nbsp;ASSIGNMENT kataReverse += kata[x]&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: Helvetica; font-size: 24px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Helvetica; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 24px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-size: 24px;&quot;&gt;&amp;nbsp; &lt;/span&gt;ASSIGNMENT x = x - 1&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;IF kata === kataReverse&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;TRUE&amp;nbsp;OUTPUT (&quot;Palindrom&quot;)&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;FALSE OUTPUT (&quot;Bukan Palindrom&quot;)&lt;br style=&quot;font-size: 24px;&quot;&gt;SELESAI&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=24;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="623" y="835" width="623" height="604" as="geometry"/>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;Algoritma Pseudocode Menentukan Kata Palindrom :&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;DEKLARASI :&lt;br style=&quot;font-size: 24px;&quot;&gt;&#9;kata, kataLowerCase, kataReverse : STRING;&lt;br style=&quot;font-size: 24px;&quot;&gt;i, x : NUM;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;MULAI :&lt;br style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;span style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;INPUT (kata)&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI OBJECT upper, OBJECT lower, kataLowerCase = &quot;&quot;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI i = 0&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;WHILE i &amp;lt; kata.length&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;WHILE kata[i] &amp;gt;= &quot;A&quot; &amp;amp;&amp;amp; kata[i] &amp;lt;= &quot;Z&quot;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;REASSIGNMENT kataLowerCase += lower[upper[kata[i]] + 32]&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;REASSIGNMENT i = i + 1&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;REASSIGNMENT kataLowerCase += kata[i]&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;REASSIGNMENT i = i + 1&lt;br&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI kataReverse = &quot;&quot;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI x = kataLowerCase.length - 1&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;span style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;WHILE&amp;nbsp;x &amp;gt;=0&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 24px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ASSIGNMENT kataReverse +=&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;kataLowerCase&lt;/span&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 24px;&quot;&gt;[x]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 24px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ASSIGNMENT x = x - 1&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;IF kata === kataReverse&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;TRUE&amp;nbsp;OUTPUT (&quot;Palindrom&quot;)&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;FALSE OUTPUT (&quot;Bukan Palindrom&quot;)&lt;br style=&quot;font-size: 24px;&quot;&gt;SELESAI&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&#9;&lt;/span&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=24;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="565" y="3228" width="828" height="900" as="geometry"/>
                 </mxCell>
-                <mxCell id="jP9Gf66-D8ZCtO5igqZr-33" value="" style="group;strokeColor=default;fontStyle=1;fontSize=24;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="595" y="1885" width="791" height="2187" as="geometry"/>
+                <mxCell id="97" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="241" y="4375" width="1734" height="4043.8199999999997" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Algoritma Flowchart Menentukan Kata Palindrom :&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontFamily=Helvetica;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="132.2697501345977" y="26" width="594" height="41" as="geometry"/>
+                <mxCell id="5" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Algoritma Flowchart Menentukan Kata Palindrom :&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontFamily=Helvetica;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="524.2697501345976" width="594" height="41" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="6" target="10" edge="1">
+                <mxCell id="6" value="MULAI" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="635.2939283564438" y="56" width="146.82134570765658" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="INPUT&lt;br&gt;kata" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="591.6558391337974" y="203" width="255.7138437741686" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="97" source="6" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="MULAI" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="244.2939283564437" y="87" width="146.82134570765658" height="80" as="geometry"/>
+                <mxCell id="75" value="INISIALISASI&lt;br style=&quot;font-size: 24px;&quot;&gt;OBJECT upper,&lt;br style=&quot;font-size: 24px;&quot;&gt;OBJECT lower,&lt;br style=&quot;font-size: 24px;&quot;&gt;kataLowerCase&amp;nbsp;= &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;container=0;" vertex="1" parent="97">
+                    <mxGeometry x="527" y="339" width="373.5" height="147" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="10" target="72" edge="1">
+                <mxCell id="78" value="" style="edgeStyle=none;html=1;fontSize=24;fontStyle=1" edge="1" parent="97" source="10" target="75">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="INPUT kata" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="200.65583913379734" y="234" width="255.7138437741686" height="77" as="geometry"/>
+                <mxCell id="76" value="INISIALISASI&lt;br style=&quot;font-size: 24px;&quot;&gt;i = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;container=0;" vertex="1" parent="97">
+                    <mxGeometry x="578.03" y="545" width="287" height="102" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="INISIALISASI&lt;br style=&quot;font-size: 24px;&quot;&gt;x = kata.length-1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="215.7303124593678" y="611" width="232.46713070378962" height="79" as="geometry"/>
+                <mxCell id="79" value="" style="edgeStyle=none;html=1;fontSize=24;fontStyle=1" edge="1" parent="97" source="75" target="76">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="12" target="13" edge="1">
+                <mxCell id="80" value="i &amp;lt; kata.length" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;container=0;" vertex="1" parent="97">
+                    <mxGeometry x="576.5" y="753" width="295.97" height="277" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="edgeStyle=none;html=1;fontSize=24;fontStyle=1" edge="1" parent="97" source="76" target="80">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="kata[i] &amp;gt;= &quot;A&quot; &amp;amp;&amp;amp;&lt;br&gt;kata[i] &amp;lt;= &quot;Z&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;container=0;" vertex="1" parent="97">
+                    <mxGeometry x="543" y="1114.5" width="386.97" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="IYA" style="edgeStyle=none;html=1;fontSize=24;fontStyle=1" edge="1" parent="97" source="80" target="82">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="REASSIGNMENT&lt;br style=&quot;font-size: 24px;&quot;&gt;kataLowerCase += lower[upper[kata[i]] + 32]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;container=0;" vertex="1" parent="97">
+                    <mxGeometry x="1047" y="1224.5" width="568" height="110.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="IYA" style="edgeStyle=none;html=1;fontSize=24;fontStyle=1" edge="1" parent="97" source="82" target="84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="REASSIGNMENT&lt;br style=&quot;font-size: 24px;&quot;&gt;kataLowerCase&amp;nbsp;+= kata[i]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;container=0;" vertex="1" parent="97">
+                    <mxGeometry x="31" y="1224.5" width="385" height="108.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="TIDAK" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontStyle=1" edge="1" parent="97" source="82" target="86">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="346.14519370851997" y="1013" as="targetPoint"/>
+                        <mxPoint x="402.81827614524127" y="1273.7272838245735" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="41" value="Iya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;fontFamily=Helvetica;fontStyle=1;" parent="36" vertex="1" connectable="0">
+                <mxCell id="91" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontStyle=1" edge="1" parent="97" source="88" target="80">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="750" y="1848"/>
+                            <mxPoint x="1734" y="1848"/>
+                            <mxPoint x="1714" y="897"/>
+                            <mxPoint x="1396" y="892"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="REASSIGNMENT&lt;br style=&quot;font-size: 24px;&quot;&gt;i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;container=0;" vertex="1" parent="97">
+                    <mxGeometry x="608.28" y="1613" width="284" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontStyle=1" edge="1" parent="97" source="84" target="88">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1331" y="1668"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontStyle=1" edge="1" parent="97" source="86" target="88">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="230" y="1668"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="INISIALISASI&lt;br style=&quot;font-size: 24px;&quot;&gt;x = kataLowerCase.length-1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="541" y="2367.74" width="462" height="138.26" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="x &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="618.0017411325023" y="2605.0017850287904" width="323.2760864921708" height="164.08445297504798" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="97" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="REASSIGNMENT&lt;br style=&quot;font-size: 24px;&quot;&gt;kataReverse += kataLowerCase[x]" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="581.9037753993814" y="2955.996871401152" width="416.3936548839376" height="107.79270633397311" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" parent="97" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="787.2378801013601" y="2849.21113243762" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Iya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;fontFamily=Helvetica;fontStyle=1;container=0;" parent="36" vertex="1" connectable="0">
                     <mxGeometry x="-0.2183" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="12" value="x &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="231.2436194895592" y="813" width="225.12606341840674" height="137" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="11" target="12" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="ASSIGNMENT&lt;br style=&quot;font-size: 24px;&quot;&gt;kataReverse += kata[x]" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="211.05670531716427" y="1093" width="289.97215777262187" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="15" style="edgeStyle=none;hachureGap=4;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="14" target="12" edge="1">
+                <mxCell id="15" style="edgeStyle=none;hachureGap=4;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;fontStyle=1" parent="97" source="14" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="661.9195668986849" y="1348"/>
-                            <mxPoint x="646.0139211136891" y="878"/>
+                            <mxPoint x="1240.6829500740462" y="3250.4395393474088"/>
+                            <mxPoint x="1217.8427917892736" y="2687.52207293666"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="ASSIGNMENT&lt;br style=&quot;font-size: 24px;&quot;&gt;x = x -1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="227.57308584686777" y="1303" width="289.97215777262187" height="90" as="geometry"/>
+                <mxCell id="14" value="REASSIGNMENT&lt;br style=&quot;font-size: 24px;&quot;&gt;x = x -1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="585.3509353744779" y="3199.0031861804227" width="416.3936548839376" height="107.79270633397311" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="13" target="14" edge="1">
+                <mxCell id="17" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="97" source="13" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="kata === KataReverse&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="171.90332559938128" y="1436" width="329.12451662799685" height="171" as="geometry"/>
+                <mxCell id="24" value="kataLowerCase&amp;nbsp;=== KataReverse&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="564.0027388327823" y="3399.0037619961613" width="472.61558296953234" height="204.8061420345489" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;hachureGap=4;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="12" target="24" edge="1">
+                <mxCell id="25" style="edgeStyle=none;hachureGap=4;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="97" source="12" target="24" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="56.281515854601686" y="882"/>
-                            <mxPoint x="68.51662799690642" y="1148"/>
-                            <mxPoint x="56.281515854601686" y="1530"/>
+                            <mxPoint x="371" y="2692.312859884837"/>
+                            <mxPoint x="385" y="3501"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="35" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 24px;&quot;&gt;Tidak&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;fontFamily=Architects Daughter;fontStyle=1;" parent="25" vertex="1" connectable="0">
+                <mxCell id="35" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 24px;&quot;&gt;Tidak&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;fontFamily=Architects Daughter;fontStyle=1;container=0;" parent="25" vertex="1" connectable="0">
                     <mxGeometry x="-0.7826" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="26" value="OUTPUT&lt;br style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp;&quot;palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="205.54988399071928" y="1720" width="273.4547563805104" height="85" as="geometry"/>
+                <mxCell id="26" value="OUTPUT&lt;br style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp;&quot;palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="608.2761008263307" y="3725.002725527831" width="392.6750289728271" height="101.80422264875239" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="Iya" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="24" target="26" edge="1">
+                <mxCell id="27" value="Iya" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="97" source="24" target="26" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="OUTPUT&lt;br style=&quot;font-size: 24px;&quot;&gt;&quot;bukan palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="510.2590286425902" y="1717" width="274.9685429638854" height="78" as="geometry"/>
+                <mxCell id="28" value="OUTPUT&lt;br style=&quot;font-size: 24px;&quot;&gt;&quot;bukan palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="1118.2712067147381" y="3720.999635316698" width="394.8487932852617" height="93.42034548944338" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="TIdak" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;entryX=0.399;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="24" target="28" edge="1">
+                <mxCell id="29" value="TIdak" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;entryX=0.399;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" parent="97" source="24" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="623.5404732254046" y="1521"/>
+                            <mxPoint x="1276" y="3501"/>
                         </Array>
-                        <mxPoint x="669.2606341840681" y="1729" as="targetPoint"/>
+                        <mxPoint x="1251.2245615900956" y="3706.761996161228" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" value="SELESAI" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="260.6078886310905" y="1895" width="146.82134570765658" height="80" as="geometry"/>
+                <mxCell id="30" value="SELESAI" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="707.0041973216827" y="3948.004261036469" width="210.83223032098093" height="95.81573896353166" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="26" target="30" edge="1">
+                <mxCell id="32" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="97" source="26" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" style="edgeStyle=none;hachureGap=4;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;strokeColor=default;exitX=0.428;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="28" target="30" edge="1">
+                <mxCell id="33" style="edgeStyle=none;hachureGap=4;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;strokeColor=default;exitX=0.428;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1" parent="97" source="28" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="632.4059775840595" y="1935"/>
+                            <mxPoint x="1287" y="3996"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="74" style="edgeStyle=none;hachureGap=4;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" source="72" target="11" edge="1">
+                <mxCell id="74" style="edgeStyle=none;hachureGap=4;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontStyle=1" parent="97" source="72" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="INISIALISASI&lt;br style=&quot;font-size: 24px;&quot;&gt;kataReverse = &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1" parent="jP9Gf66-D8ZCtO5igqZr-33" vertex="1">
-                    <mxGeometry x="212.28261631989085" y="410" width="232.46713070378962" height="79" as="geometry"/>
+                <mxCell id="72" value="INISIALISASI&lt;br style=&quot;font-size: 24px;&quot;&gt;kataReverse = &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;strokeColor=default;fontStyle=1;container=0;" parent="97" vertex="1">
+                    <mxGeometry x="599.9641566956715" y="2127" width="333.8176980082199" height="94.61804222648752" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=24;fontStyle=1" edge="1" parent="97" source="80" target="72">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="522" y="2187" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint y="892"/>
+                            <mxPoint x="12" y="1541"/>
+                            <mxPoint x="23" y="2183"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="TIDAK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;fontStyle=1;container=0;" vertex="1" connectable="0" parent="93">
+                    <mxGeometry x="-0.7824" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="BDV7IyLmSjpeVGGIrH9h" name="reverse words">
-        <mxGraphModel dx="2083" dy="3248" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1590" dy="2884" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -143,16 +219,18 @@
                 <mxCell id="2Pl_2EvavBKf5KSTd6St-7" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-1" target="2Pl_2EvavBKf5KSTd6St-4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="rdH95LvTlfff1WgvVRj0-3" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-12" target="rdH95LvTlfff1WgvVRj0-2" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="rdH95LvTlfff1WgvVRj0-3" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-12" target="rdH95LvTlfff1WgvVRj0-35" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="931.8020984513782" y="716.5729769011159" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="2Pl_2EvavBKf5KSTd6St-12" value="INISIALISASI&lt;br&gt;kalimatReverse = &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-12" value="INISIALISASI&lt;br&gt;kalimatReverse = &quot;&quot;,&lt;br&gt;kata = &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
                     <mxGeometry x="787.3558863328824" y="535.8828652997664" width="282.32817320703657" height="80.59045678691929" as="geometry"/>
                 </mxCell>
                 <mxCell id="2Pl_2EvavBKf5KSTd6St-14" value="x &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
                     <mxGeometry x="809.1740176991151" y="1091.0618884832393" width="263.93925663716817" height="175.10638234317955" as="geometry"/>
                 </mxCell>
-                <mxCell id="2Pl_2EvavBKf5KSTd6St-16" value="ASSIGNMENT&lt;br&gt;kata = kalimat[x] + kata" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-16" value="REASSIGNMENT&lt;br&gt;kata = kalimat[x] + kata" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
                     <mxGeometry x="751.4012389380531" y="1620.8659143710588" width="379.48481415929206" height="100.61135081314305" as="geometry"/>
                 </mxCell>
                 <mxCell id="2Pl_2EvavBKf5KSTd6St-20" value="Iya" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-18" target="2Pl_2EvavBKf5KSTd6St-16" edge="1">
@@ -172,13 +250,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2Pl_2EvavBKf5KSTd6St-21" value="ASSIGNMENT&lt;br&gt;x = x-1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-21" value="REASSIGNMENT&lt;br&gt;x = x-1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
                     <mxGeometry x="809.1740176991151" y="1839.9940258878194" width="278.38800000000003" height="95.60636242947228" as="geometry"/>
                 </mxCell>
                 <mxCell id="2Pl_2EvavBKf5KSTd6St-22" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-16" target="2Pl_2EvavBKf5KSTd6St-21" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2Pl_2EvavBKf5KSTd6St-24" value="ASSIGNMENT&lt;br&gt;kaliamatReverse += kata + &quot;&amp;nbsp; &quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-24" value="REASSIGNMENT&lt;br&gt;kaliamatReverse += kata + &quot;&amp;nbsp; &quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
                     <mxGeometry x="152.2695668457121" y="1406.744060519836" width="447.4427325344421" height="88.17330508474576" as="geometry"/>
                 </mxCell>
                 <mxCell id="2Pl_2EvavBKf5KSTd6St-25" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-18" target="2Pl_2EvavBKf5KSTd6St-24" edge="1">
@@ -196,13 +274,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2Pl_2EvavBKf5KSTd6St-27" value="ASSIGNMENT&lt;br&gt;kata = &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-27" value="REASSIGNMENT&lt;br&gt;kata = &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
                     <mxGeometry x="236.332514195651" y="1648.4042300113608" width="279.31598472449537" height="90.35042372881354" as="geometry"/>
                 </mxCell>
                 <mxCell id="2Pl_2EvavBKf5KSTd6St-28" style="edgeStyle=none;hachureGap=4;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-24" target="2Pl_2EvavBKf5KSTd6St-27" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2Pl_2EvavBKf5KSTd6St-30" value="ASSIGNMENT&lt;br&gt;kaliamatReverse += kata&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
+                <mxCell id="2Pl_2EvavBKf5KSTd6St-30" value="REASSIGNMENT&lt;br&gt;kaliamatReverse += kata&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
                     <mxGeometry x="774.2363068799503" y="2057.7025350961067" width="379.93531914893623" height="97.97033898305085" as="geometry"/>
                 </mxCell>
                 <mxCell id="2Pl_2EvavBKf5KSTd6St-31" value="OUTPUT&lt;br style=&quot;font-size: 24px;&quot;&gt;kalimatReverse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1;strokeWidth=1;" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
@@ -225,16 +303,10 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="2Pl_2EvavBKf5KSTd6St-33" value="SELESAI" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
-                    <mxGeometry x="851.9572262773722" y="2433.255501197802" width="213.34781021897808" height="84.90762711864407" as="geometry"/>
+                    <mxGeometry x="863.2572262773722" y="2434.995501197802" width="213.34781021897808" height="84.90762711864407" as="geometry"/>
                 </mxCell>
                 <mxCell id="2Pl_2EvavBKf5KSTd6St-34" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" source="2Pl_2EvavBKf5KSTd6St-31" target="2Pl_2EvavBKf5KSTd6St-33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="rdH95LvTlfff1WgvVRj0-36" style="edgeStyle=none;hachureGap=4;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;" parent="2Pl_2EvavBKf5KSTd6St-37" source="rdH95LvTlfff1WgvVRj0-2" target="rdH95LvTlfff1WgvVRj0-35" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="rdH95LvTlfff1WgvVRj0-2" value="INISIALISASI&lt;br&gt;kata = &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
-                    <mxGeometry x="787.3558863328823" y="716.572976901116" width="290.87200270636" height="84.67765377627823" as="geometry"/>
                 </mxCell>
                 <mxCell id="rdH95LvTlfff1WgvVRj0-37" style="edgeStyle=none;hachureGap=4;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;" parent="2Pl_2EvavBKf5KSTd6St-37" source="rdH95LvTlfff1WgvVRj0-35" target="2Pl_2EvavBKf5KSTd6St-14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -242,11 +314,11 @@
                 <mxCell id="rdH95LvTlfff1WgvVRj0-35" value="INISIALISASI&lt;br&gt;x = kalimat.length - 1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=24;fontStyle=1" parent="2Pl_2EvavBKf5KSTd6St-37" vertex="1">
                     <mxGeometry x="791.4538700947227" y="897.2630885024655" width="290.87200270636" height="84.67765377627823" as="geometry"/>
                 </mxCell>
-                <mxCell id="rdH95LvTlfff1WgvVRj0-38" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-family: Helvetica; background-color: initial;&quot;&gt;Algoritma Deskriptif Reverse Words :&lt;/b&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;1. MULAI&lt;/b&gt;&lt;/div&gt;&lt;b&gt;2. INPUT kalimat&lt;br&gt;3. INISIALISASI variable kalimatReverse dengan STRING kosong&lt;br&gt;4. INISIALISASI variable kata dengan STRING kosong&lt;br&gt;5. INISIALISASI variable x dengan panjang kalimat dikurangi 1&lt;br&gt;6.&amp;nbsp; saat x lebih atau sama dengan 0&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;A. saat kalimat index ke-x bukan sebuah karakter spasi&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;a. ASSIGNMENT kata dengan kalimat index ke-x ditambah kata&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;b. ASSIGNMENT x dikurangi 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;B. ASSIGNMENT kalimatReverse dengan kata ditambah karakter spasi secara KONKATENASI&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;a. ASSIGNMENT kata dengan STRING kosong&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;b. ASSIGNMENT x dikurangi 1&lt;br&gt;7. ASSIGNMENT kalimatReverse dengan kata secara KONKATENASI&lt;br&gt;8. OUTPUT kalimatReverse&lt;br&gt;9. SELESAI&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=24;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=1;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="265" y="-2096" width="1136" height="485" as="geometry"/>
+                <mxCell id="rdH95LvTlfff1WgvVRj0-38" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-family: Helvetica; background-color: initial;&quot;&gt;Algoritma Deskriptif Reverse Words :&lt;/b&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;1. MULAI&lt;/b&gt;&lt;/div&gt;&lt;b&gt;2. INPUT kalimat&lt;br&gt;3. INISIALISASI kalimatReverse dan kata dengan STRING kosong&lt;br&gt;5. INISIALISASI&amp;nbsp; x dengan panjang kalimat - 1&lt;br&gt;6.&amp;nbsp; saat x lebih atau sama dengan 0&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;A. saat kalimat index ke-x bukan sebuah karakter spasi&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;a. REASSIGNMENT kata dengan kalimat index ke-x + kata&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;b. REASSIGNMENT x dengan x - 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;B. REASSIGNMENT kalimatReverse dengan kata ditambah karakter spasi secara KONKATENASI&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;a. REASSIGNMENT kata dengan STRING kosong&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;b. REASSIGNMENT x dengan x - 1&lt;br&gt;7. REASSIGNMENT kalimatReverse dengan kata secara KONKATENASI&lt;br&gt;8. OUTPUT kalimatReverse&lt;br&gt;9. SELESAI&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=24;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="-2081" width="1170" height="455" as="geometry"/>
                 </mxCell>
-                <mxCell id="5Qbi0iYfj35jZi8ULuFI-1" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-family: Helvetica; background-color: initial;&quot;&gt;Algoritma Pseudocoe Reverse Words :&lt;/b&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b&gt;&lt;br&gt;DEKLARASI :&lt;br&gt;kalimat, kalimatReverse, kata : STRING;&lt;br&gt;x : NUM;&lt;br&gt;&lt;br&gt;MULAI&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;INPUT (kalimat)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI kalimatReverse = &quot;&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI kata = &quot;&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI x = kalimat.length - 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;WHILE x &amp;gt;= 0&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;WHILE kalimat[x] != &quot; &quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ASSIGNMENT kata = kalimat[x] + kata&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ASSIGNMENT x = x - 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ASSIGNMENT kalimatReverse += kata + &quot; &quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ASSIGNMENT kata = &quot;&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ASSIGNMENT x = x - 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;ASSIGNMENT kalimatReverse += kata&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;OUTPUT (kalimatReverse)&lt;br&gt;SELESAI&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=24;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=1;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="559" y="-1419" width="614" height="722" as="geometry"/>
+                <mxCell id="5Qbi0iYfj35jZi8ULuFI-1" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-family: Helvetica; background-color: initial;&quot;&gt;Algoritma Pseudocoe Reverse Words :&lt;/b&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b&gt;&lt;br&gt;DEKLARASI :&lt;br&gt;kalimat, kalimatReverse, kata : STRING;&lt;br&gt;x : NUM;&lt;br&gt;&lt;br&gt;MULAI&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;INPUT (kalimat)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI kalimatReverse = &quot;&quot;, kata = &quot;&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;INISIALISASI x = kalimat.length - 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;WHILE x &amp;gt;= 0&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;WHILE kalimat[x] != &quot; &quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;REASSIGNMENT kata = kalimat[x] + kata&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;REASSIGNMENT x = x - 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;REASSIGNMENT kalimatReverse += kata + &quot; &quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;REASSIGNMENT kata = &quot;&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;REASSIGNMENT x = x - 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;REASSIGNMENT kalimatReverse += kata&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;OUTPUT (kalimatReverse)&lt;br&gt;SELESAI&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=24;fontFamily=Architects Daughter;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="559" y="-1404" width="647" height="693" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
